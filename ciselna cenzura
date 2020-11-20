@@ -1,0 +1,7 @@
+def censor_number(k, n):
+    rada=[]
+    hvezd=[]
+    for i in range(1,n):
+        rada.append(i)
+    hvezd=[* if i==2 else i for i in rada]
+    print(rada)
